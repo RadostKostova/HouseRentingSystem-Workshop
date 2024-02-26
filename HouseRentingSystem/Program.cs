@@ -28,5 +28,6 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapDefaultControllerRoute();
+app.MapRazorPages();
 
 await app.RunAsync();
