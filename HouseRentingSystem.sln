@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseRentingSystem", "House
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem.Core", "HouseRentingSystem.Core\HouseRentingSystem.Core.csproj", "{C3F8A4D9-909E-4091-884F-17F28E2DAAE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem.Infrestructure", "HouseRentingSystem.Infrestructure\HouseRentingSystem.Infrestructure.csproj", "{4C4E41E7-332E-4EE1-89FC-E8D86F5058CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem.Infrastructure", "HouseRentingSystem.Infrestructure\HouseRentingSystem.Infrastructure.csproj", "{4C4E41E7-332E-4EE1-89FC-E8D86F5058CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
