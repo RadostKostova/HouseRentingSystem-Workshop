@@ -18,5 +18,7 @@
         //Agent conts
         public const int AgentPhoneNumberMinLength = 7;
         public const int AgentPhoneNumberMaxLength = 15;
+
+        //
     }
 }
