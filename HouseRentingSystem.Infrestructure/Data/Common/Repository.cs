@@ -11,12 +11,12 @@ namespace HouseRentingSystem.Infrastructure.Data.Common
             context = _context;
         }
 
-        private DbSet<T> DbSet<T>() where T : class 
+        private DbSet<T> DbSet<T>() where T : class
         {
             return context.Set<T>();
         }
 
-        public IQueryable<T> All<T>() where T : class 
+        public IQueryable<T> All<T>() where T : class
         {
             return DbSet<T>();
         }
@@ -24,6 +24,16 @@ namespace HouseRentingSystem.Infrastructure.Data.Common
         public IQueryable<T> AllReadOnly<T>() where T : class
         {
             return DbSet<T>().AsNoTracking();
+        }
+
+        public async Task AddAsync<T>(T entity) where T : class
+        {
+            await DbSet<T>().AddAsync(entity);
+        }
+
+        public async Task<int> SaveChangesAsync()
+        {
+            return await context.SaveChangesAsync();
         }
     }
 }
