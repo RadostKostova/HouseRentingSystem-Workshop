@@ -10,6 +10,5 @@
 
         public const string HasRents = "You should have no rents to become an agent.";
 
-
     }
 }

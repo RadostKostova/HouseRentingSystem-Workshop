@@ -12,13 +12,12 @@
         public const int HouseAddressMaxLength = 150;
         public const int HouseDescriptionMinLength = 50;
         public const int HouseDescriptionMaxLength = 500;
-        public const string HousePricePerMonthMinLength = "0.00";
-        public const string HousePricePerMonthMaxLength = "2000.00";
+        public const string HousePricePerMonthMinLength = "0";
+        public const string HousePricePerMonthMaxLength = "2000";
 
         //Agent conts
         public const int AgentPhoneNumberMinLength = 7;
         public const int AgentPhoneNumberMaxLength = 15;
 
-        //
     }
 }
